@@ -8,9 +8,8 @@ public class Homework1 {
 		//File directory for file input
 		File file = new File("C:\\Users\\sheco\\eclipse-workspace\\Programming_Language_Concepts\\PLC_HW1.txt"); 
 		Scanner sc = new Scanner(file);
-		StringTokenizer thisFile = new StringTokenizer(file.toString());
-		while (sc.hasNextLine()) 
-			System.out.println(sc.nextLine());
+		//StringTokenizer thisFile = new StringTokenizer(file.toString());
+		while (sc.hasNext()) 
+			System.out.println(sc.next());
 	}
-
 }
